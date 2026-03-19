@@ -8,10 +8,10 @@ let proximoId = 5;
 
 // Dados em memória
 let produtos = [
-    { id: 1, nome: "Notebook Dell", preco: 3500, categoria: "Informática", estoque: 15 },
-    { id: 2, nome: "Mouse Logitech", preco: 150, categoria: "Informática", estoque: 50 },
-    { id: 3, nome: "Livro JavaScript", preco: 89, categoria: "Livros", estoque: 30 },
-    { id: 4, nome: "Teclado Mecânico", preco: 450, categoria: "Informática", estoque: 20 }
+    { id: 1, nome: "Gol", preco: 20000, categoria: "Carro", estoque: 5 },
+    { id: 2, nome: "Palio", preco: 25000, categoria: "Carro", estoque: 7 },
+    { id: 3, nome: "Silverado", preco: 50000, categoria: "Camionete", estoque: 8 },
+    { id: 4, nome: "CBX 750", preco: 45000, categoria: "Moto", estoque: 4 }
 ];
 
 // GET /api/produtos - Listar com filtros, ordenação e paginação
